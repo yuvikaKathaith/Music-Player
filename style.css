@@ -1,0 +1,24 @@
+*{
+    margin: 0; 
+    padding: 0;
+    border: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000000; 
+    background: -webkit-linear-gradient(to right, #434343, #000000);    
+    background: linear-gradient(to right, #434343, #000000); 
+}
+img{
+   height: 400px;
+}    
+.player{
+    position: absolute;
+    background-color: #f1f1f1;
+}
+audio{
+    width:100%;
+}
